@@ -31,7 +31,7 @@ function calcularPresupuesto() {
     subTotal = Number(subTotal.toFixed(2));
 
     // Obtenemos la fecha actual.
-    let fecha = new Date().toLocaleString("es-ES");
+    let fecha = new Date();
 
     // Creamos el objeto del presupuesto.
     let objeto = {
